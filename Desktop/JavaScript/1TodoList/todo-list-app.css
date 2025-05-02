@@ -1,0 +1,98 @@
+body{
+  background-color:#f3f4f6 ;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+}
+h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 400px;
+  border-radius: 10px;
+  background-color: pink;
+  padding: 20px 30px;
+}
+
+
+.btn1{
+  background-color:green;
+  color: white;
+  border-radius: 10px;
+  margin:5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.btn2{
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  margin: 5px; 
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.input1 {
+  border-radius: 5px;
+  padding: 5px 10px;
+  width: 100%;
+  font-size: 16px;
+}
+.input2 {
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+.content {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.list-items {
+  margin-top: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.btn1:hover {
+  background-color: darkgreen;
+}
+.btn2:hover {
+  background-color: darkred;
+}
+.input {
+  width: 100%;
+  font-size: 16px;
+}
+button {
+  font-size: 16px;
+  font-family: inherit;
+}
+button {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+button:hover {
+  transform: scale(1.03);
+}
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+    padding: 15px 20px;
+  }
+
+  .content {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .input {
+    width: 100%;
+  }
+}
